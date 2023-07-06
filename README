@@ -82,7 +82,7 @@ Each task folder usually contains two files: Task.md and Solution.java. Task.md 
 
 1. Склонируйте репозиторий на свой компьютер:
 
-   ```git
+   ```
    git clone https://github.com/example/repo.git
    ```
 
@@ -100,7 +100,7 @@ You can use these tasks and solutions for self-learning or for organizing group 
 
 1. Clone the repository to your computer:
 
-   ```git
+   ```
    git clone https://github.com/example/repo.git
    ```
 
@@ -138,14 +138,14 @@ You can use these tasks and solutions for self-learning or for organizing group 
 
 5. Добавьте все изменения и закоммитьте их:
 
-   ```git
+   ```
    git add .
    git commit -m "Добавлено задание (и решение/на выполнение Алексеем) для Темы N - Задача M"
    ```
 
 6. Отправьте изменения на удаленный репозиторий:
 
-   ```git
+   ```
    git push origin master
    ```
 
@@ -172,14 +172,14 @@ If you want to add new tasks, follow these steps:
 
 5. Add all changes and commit them:
 
-   ```git
+   ```
    git add .
    git commit -m "Added task (and solution/assigned to Alexey) for Topic N - Task M"
    ```
 
 6. Push the changes to the remote repository:
 
-   ```git
+   ```
    git push origin master
    ```
 
@@ -194,7 +194,7 @@ If you want to add new tasks, follow these steps:
 
 2. Создайте новую ветку для внесения изменений:
 
-   ```git
+   ```
    git checkout -b my-new-feature
    ```
 
@@ -202,14 +202,14 @@ If you want to add new tasks, follow these steps:
 
 4. Выполните коммит и закоммитьте изменения:
 
-   ```git
+   ```
    git add .
    git commit -m "Добавлено новое задание"
    ```
 
 5. Отправьте изменения в свой форк:
 
-   ```git
+   ```
    git push origin my-new-feature
    ```
 
@@ -223,7 +223,7 @@ You can contribute to the project by suggesting new tasks or improving existing 
 
 2. Create a new branch for your changes:
 
-   ```git
+   ```
    git checkout -b my-new-feature
    ```
 
@@ -231,14 +231,14 @@ You can contribute to the project by suggesting new tasks or improving existing 
 
 4. Commit and commit the changes:
 
-   ```git
+   ```
    git add .
    git commit -m "Added a new task"
    ```
 
 5. Push the changes to your fork:
 
-   ```git
+   ```
    git push origin my-new-feature
    ```
 
