@@ -32,11 +32,4 @@ public final class Application {
                 return 0;
         }
     }
-
-    public enum Operation{
-        ADD,
-        SUBTRACT,
-        MULTIPLY,
-        DIVIDE
-    }
 }

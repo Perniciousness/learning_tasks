@@ -1,11 +1,16 @@
 package practice.oop.task3;
 
-public class Solution {
+import java.util.logging.Logger;
+
+public final class Solution {
+    private Solution(){}
+
     public static void main(String...args) {
+        Logger logger = Logger.getLogger("output");
         Car[] carCollection = assembleCarExamples();
 
         for(Car specificCar : carCollection) {
-            System.out.println(specificCar.isClassical());
+            logger.log(java.util.logging.Level.INFO, "{0}", specificCar.isClassical());
         }
     }
 
