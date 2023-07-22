@@ -5,11 +5,11 @@ import java.util.List;
 import practice.oop.task8.models.Player;
 import practice.oop.task8.services.TeamService;
 
-public class TeamServiceImpl implements TeamService {
+public class ListTeamService implements TeamService {
 
     private List<Player> team;
 
-    public TeamServiceImpl(List<Player> team) {
+    public ListTeamService(List<Player> team) {
         
         this.team = team;
     }

@@ -5,11 +5,11 @@ import java.util.List;
 import practice.oop.task6.models.User;
 import practice.oop.task6.services.UserService;
 
-public class UserServiceImpl implements UserService {
+public class ListUserService implements UserService {
 
     private List<User> userDirectory;
     
-    public UserServiceImpl(List<User> userDirectory) {
+    public ListUserService(List<User> userDirectory) {
         this.userDirectory = userDirectory;
     }
 

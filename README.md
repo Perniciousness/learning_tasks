@@ -57,9 +57,14 @@ Each task and its solution are placed in a separate folder named after the corre
 │   ├── Task 2
 │   │   ├── Task.md
 │   │   └── Solution
-│   │       ├── Part 1.java
-│   │       ├── Part 2.java
-│   │       └── Part 3.java
+│   │       ├── models
+│   │       |   └── Object.java
+│   │       ├── services
+│   │       |   ├── ObjectService.java
+│   │       |   └── impl
+│   │       |       └── ListObjectService.java
+│   │       └── bootloader
+│   │           └── Solution.java
 │   └── ...
 ├── Topic 2
 │   ├── Task 1
@@ -68,12 +73,14 @@ Each task and its solution are placed in a separate folder named after the corre
 │   ├── Task 2
 │   │   ├── Task.md
 │   │   └── Solution
-│   │       └── ...
+│   │       ├── models
+│   │       ├── services
+│   │       └── bootloader
 │   └── ...
 └── ...
 ```
 
-Each task folder usually contains two files: Task.md and Solution.java. Task.md file contains the task description, and Solution.java file contains its solution. If the solution cannot fit into one file for some reason, Solution.java is replaced with a file containing the necessary solution files - solution parts.
+Each task folder contains at least two files: Task.md and Solution.java. Task.md file contains the task description, and Solution.java file contains its solution. If the solution cannot be fitted into a single file, Solution.java is split into several folders containing the necessary parts for the entire thing to work. The resulting structure should still contain Solution.java file, but the structure of files themselves is prone to change due to ongoing research of when which folder structure should be used.
 
 ---
 ---

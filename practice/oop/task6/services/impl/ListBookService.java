@@ -7,11 +7,11 @@ import practice.oop.task6.models.Book;
 import practice.oop.task6.models.BookGenre;
 import practice.oop.task6.services.BookService;
 
-public class BookServiceImpl implements BookService {
+public class ListBookService implements BookService {
 
     private List<Book> bookDirectory;
 
-    public BookServiceImpl(List<Book> bookDirectory){
+    public ListBookService(List<Book> bookDirectory){
         this.bookDirectory = bookDirectory;
     }
 
